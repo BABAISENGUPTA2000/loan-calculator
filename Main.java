@@ -13,9 +13,8 @@ public class Main {
         for (int i = 0; i < month; i++) {
             float n= amount*interest;
             amount= (int) (amount-n);
-            amount++;
 
         }
-        System.out.println(amount-1);
+        System.out.println(amount);
     }
 }
